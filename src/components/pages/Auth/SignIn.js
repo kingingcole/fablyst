@@ -14,7 +14,7 @@ const SignIn = () => {
             </InputGroup>
             <div style={{display: 'flex', justifyContent: 'space-between', width: '100%', marginBottom: '10px'}}>
                 <span style={{fontSize: '14px'}}>I forgot my password</span>
-                <div style={{display: 'flex'}}><input type={`checkbox`} id={`checkbox`}/> <Label htmlFor='checkbox' style={{textAlign: 'right'}}>Remember me</Label></div>
+                <div style={{display: 'flex', alignItems: 'center'}}><input type={`checkbox`} id={`checkbox`}/> <Label htmlFor='checkbox' style={{textAlign: 'right', margin: '0px'}}>Remember me</Label></div>
             </div>
             <SubmitButton>sign in</SubmitButton>
         </Form>
