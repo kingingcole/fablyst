@@ -12,7 +12,7 @@ const SignIn = () => {
                 <Label htmlFor={`password`}>your password</Label>
                 <Input type={`password`} id={`password`} />
             </InputGroup>
-            <div style={{display: 'flex', justifyContent: 'space-between', width: '100%', marginBottom: '10px'}}>
+            <div style={{display: 'flex', justifyContent: 'space-between', width: '100%', marginBottom: '10px', alignItems: 'center'}}>
                 <span style={{fontSize: '14px'}}>I forgot my password</span>
                 <div style={{display: 'flex', alignItems: 'center'}}><input type={`checkbox`} id={`checkbox`}/> <Label htmlFor='checkbox' style={{textAlign: 'right', margin: '0px'}}>Remember me</Label></div>
             </div>
