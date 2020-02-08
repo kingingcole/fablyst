@@ -42,6 +42,7 @@ const Navbar = () => {
                     <NavLink>Women</NavLink>
                     <NavLink>Men</NavLink>
                     <NavLink>Kids</NavLink>
+                    <NavLink>Accessories</NavLink>
                     <SaleLink>Sale</SaleLink>
             </BottomNav>
         </NavBar>
